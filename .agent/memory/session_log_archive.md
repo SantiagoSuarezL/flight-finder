@@ -90,3 +90,10 @@
 - **Verificación ✅:** suite **137/137** (121 + 4 links + 12 web); smoke real GET/estimación/404 OK con **0 requests** (sin POST /run); `uv sync` regeneró el entry point.
 - **Docs:** README (sección web), ARCHITECTURE §7 (excepción local), TECHNICAL_SPEC §2, IMPLEMENTATION_PLAN Fase 13; `graphify update`.
 - **Cuota sesión:** 0 requests. Pendiente usuario: probar `flight-finder-web` en navegador + PASO 4 Fase 12 (dashboards/spot-check).
+
+### Sesión 15 — 2026-09-22 — Muse Spark via OpenCode (Fase 13.5 async + preset) (verbatim)
+
+- **Preset óptimo ✅:** `config.example.yaml` top_n 10→3 (6 combos + drill 3 = 9 req) + assert en `test_config.py`; fallback web igual; README con números nuevos.
+- **Async ✅:** `/run` lanza thread y redirige en ~30ms; `run_search` con `on_progress`/`should_cancel` (CLI intacto); página pending con progreso X/Y + Cancelar → resultado parcial etiquetado; error interno genérico sin detalle.
+- **Verificación ✅:** suite **140/140**; e2e real con 1 request (searchapi 1 combo): pending visto, SOURCE/LINK/1119/CSV OK; `graphify update`.
+- **Cuota sesión:** 1 request (autorizado). Pendiente usuario: probar web en navegador + PASO 4 Fase 12.

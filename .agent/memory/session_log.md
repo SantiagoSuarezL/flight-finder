@@ -12,17 +12,18 @@
 
 ## ÚLTIMA SESIÓN (detalle completo)
 
-`Sesión 15 — 2026-09-22 — Muse Spark via OpenCode (Fase 13.5 async + preset)`
+`Sesión 16 — 2026-09-22 — Muse Spark via OpenCode (auditoría pre-commit + push)`
 
-- **Preset óptimo ✅:** `config.example.yaml` top_n 10→3 (6 combos + drill 3 = 9 req) + assert en `test_config.py`; fallback web igual; README con números nuevos.
-- **Async ✅:** `/run` lanza thread y redirige en ~30ms; `run_search` con `on_progress`/`should_cancel` (CLI intacto); página pending con progreso X/Y + Cancelar → resultado parcial etiquetado; error interno genérico sin detalle.
-- **Verificación ✅:** suite **140/140**; e2e real con 1 request (searchapi 1 combo): pending visto, SOURCE/LINK/1119/CSV OK; `graphify update`.
-- **Cuota sesión:** 1 request (autorizado). Pendiente usuario: probar web en navegador + PASO 4 Fase 12.
+- **Secretos ✅:** barrido Python de 77 archivos (patrones sk-or/nvapi/private-key/duffel/bearer, solo conteos, sin imprimir valores) → únicos hallazgos en `.env` y `opencode.json`, ambos ignorados y untracked; nada en código/docs/tests.
+- **.gitignore ✅:** agregados `vuelos.csv`/`vuelos.html`, `config.validate.yaml`, `graphify-out/` (hook lo reconstruye), `.claude/settings.json` (rutas absolutas locales); junk (venv/pycache/pytest/egg-info) ya cubierto.
+- **Commit + push ✅:** `cabe51f` (66 files, +19711) a `origin/main`, árbol limpio; memoria y skills versionados, secretos y artefactos fuera.
+- **Cuota sesión:** 0 requests.
 
 ---
 
 ## HISTORIAL RELEVANTE (comprimido, detalle completo en session_log_archive.md)
 
+- Sesión 15 (22-09): Fase 13.5 async + preset ✅ — redirect 30ms, progreso/cancelar, ejemplo top_n 3; 140/140, e2e 1 request.
 - Sesión 14 (22-09): Fase 13 web UI + links ✅ — search.py compartido, web.py stdlib con idempotencia, 137/137, smoke 0 requests.
 - Sesión 13 (22-09): Fase 12 validación real ✅ — dry-run + separate_tickets, 1 combo/proveedor (IB152 1119 ambos), vuelos.csv corroborado; 121/121.
 - Sesión 12 (21-09): Fase 11.7 cierre ✅ — test_no_booking, borrado Duffel total, check_provider.py; 121/121; Fase 11 CERRADA.
