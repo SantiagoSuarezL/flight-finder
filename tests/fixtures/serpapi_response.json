@@ -1,0 +1,332 @@
+{
+  "search_parameters": {
+    "engine": "google_flights",
+    "departure_id": "BOG",
+    "arrival_id": "MAD",
+    "outbound_date": "2026-10-05",
+    "return_date": "2026-10-18",
+    "currency": "USD",
+    "type": 1,
+    "adults": 1
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "time": "2026-10-05 22:40"
+          },
+          "arrival_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "time": "2026-10-06 15:50"
+          },
+          "duration": 610,
+          "airplane": "Boeing 787-10",
+          "airline": "Iberia",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+          "travel_class": "Economy",
+          "flight_number": "IB 6626",
+          "ticket_also_sold_by": [],
+          "legroom": "31",
+          "extensions": ["Checked baggage for a fee"]
+        }
+      ],
+      "layovers": [],
+      "total_duration": 610,
+      "carbon_emissions": {
+        "this_flight": 161000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -26
+      },
+      "price": 950,
+      "type": "1",
+      "extensions": ["Checked baggage for a fee"],
+      "departure_token": "SERP_TOKEN_DIRECT"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "time": "2026-10-05 17:35"
+          },
+          "arrival_airport": {
+            "id": "FRA",
+            "name": "Frankfurt Airport (Frankfurt)",
+            "time": "2026-10-06 11:15"
+          },
+          "duration": 680,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Avianca",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+          "travel_class": "Economy",
+          "flight_number": "AV 240",
+          "legroom": "32",
+          "extensions": ["Carry-on included"]
+        },
+        {
+          "departure_airport": {
+            "id": "FRA",
+            "name": "Frankfurt Airport (Frankfurt)",
+            "time": "2026-10-06 13:30"
+          },
+          "arrival_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "time": "2026-10-06 15:55"
+          },
+          "duration": 145,
+          "airplane": "Airbus A320neo",
+          "airline": "Lufthansa",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+          "travel_class": "Economy",
+          "flight_number": "LH 1102",
+          "legroom": "30",
+          "extensions": []
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 135,
+          "name": "Frankfurt Airport",
+          "id": "FRA",
+          "overnight": false
+        }
+      ],
+      "total_duration": 960,
+      "carbon_emissions": {
+        "this_flight": 172000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -21
+      },
+      "price": 850,
+      "type": "1",
+      "extensions": ["Carry-on included"],
+      "departure_token": "SERP_TOKEN_FRA"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "time": "2026-10-05 08:05"
+          },
+          "arrival_airport": {
+            "id": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport (Atlanta)",
+            "time": "2026-10-05 13:30"
+          },
+          "duration": 325,
+          "airplane": "Boeing 737 MAX 9",
+          "airline": "Delta Air Lines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 478",
+          "legroom": "31",
+          "extensions": []
+        },
+        {
+          "departure_airport": {
+            "id": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport (Atlanta)",
+            "time": "2026-10-05 16:45"
+          },
+          "arrival_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "time": "2026-10-06 06:45"
+          },
+          "duration": 540,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Delta Air Lines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 234",
+          "legroom": "31",
+          "extensions": ["Checked baggage for a fee"]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 195,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL",
+          "overnight": false
+        }
+      ],
+      "total_duration": 1060,
+      "carbon_emissions": {
+        "this_flight": 198000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -9
+      },
+      "price": 920,
+      "type": "1",
+      "extensions": ["Checked baggage for a fee"],
+      "departure_token": "SERP_TOKEN_ATL"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "time": "2026-10-05 10:30"
+          },
+          "arrival_airport": {
+            "id": "MEX",
+            "name": "Mexico City International Airport (Mexico City)",
+            "time": "2026-10-05 15:00"
+          },
+          "duration": 270,
+          "airplane": "Boeing 737 MAX 8",
+          "airline": "Aeromexico",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+          "travel_class": "Economy",
+          "flight_number": "AM 743",
+          "legroom": "31",
+          "extensions": []
+        },
+        {
+          "departure_airport": {
+            "id": "MEX",
+            "name": "Mexico City International Airport (Mexico City)",
+            "time": "2026-10-05 18:20"
+          },
+          "arrival_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "time": "2026-10-06 12:00"
+          },
+          "duration": 580,
+          "airplane": "Boeing 787-9",
+          "airline": "Aeromexico",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+          "travel_class": "Economy",
+          "flight_number": "AM 4",
+          "legroom": "32",
+          "extensions": ["Checked baggage for a fee"]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 140,
+          "name": "Mexico City International Airport",
+          "id": "MEX",
+          "overnight": false
+        }
+      ],
+      "total_duration": 990,
+      "carbon_emissions": {
+        "this_flight": 185000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -15
+      },
+      "price": 880,
+      "type": "1",
+      "extensions": ["Checked baggage for a fee"],
+      "departure_token": "SERP_TOKEN_MEX"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "time": "2026-10-05 17:35"
+          },
+          "arrival_airport": {
+            "id": "FRA",
+            "name": "Frankfurt Airport (Frankfurt)",
+            "time": "2026-10-06 11:15"
+          },
+          "duration": 680,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Avianca",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+          "travel_class": "Economy",
+          "flight_number": "AV 240",
+          "legroom": "32",
+          "extensions": []
+        },
+        {
+          "departure_airport": {
+            "id": "FRA",
+            "name": "Frankfurt Airport (Frankfurt)",
+            "time": "2026-10-06 13:30"
+          },
+          "arrival_airport": {
+            "id": "ZRH",
+            "name": "Zurich Airport (Zurich)",
+            "time": "2026-10-06 14:50"
+          },
+          "duration": 80,
+          "airplane": "Airbus A320neo",
+          "airline": "Lufthansa",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+          "travel_class": "Economy",
+          "legroom": "30",
+          "extensions": []
+        },
+        {
+          "departure_airport": {
+            "id": "ZRH",
+            "name": "Zurich Airport (Zurich)",
+            "time": "2026-10-06 17:20"
+          },
+          "arrival_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "time": "2026-10-06 19:25"
+          },
+          "duration": 125,
+          "airplane": "Airbus A220-300",
+          "airline": "Swiss International Air Lines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+          "travel_class": "Economy",
+          "flight_number": "LX 1182",
+          "legroom": "30",
+          "extensions": []
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 135,
+          "name": "Frankfurt Airport",
+          "id": "FRA",
+          "overnight": false
+        },
+        {
+          "duration": 150,
+          "name": "Zurich Airport",
+          "id": "ZRH",
+          "overnight": false
+        }
+      ],
+      "total_duration": 1170,
+      "carbon_emissions": {
+        "this_flight": 210000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -3
+      },
+      "price": 800,
+      "type": "1",
+      "extensions": ["Carry-on included"],
+      "departure_token": "SERP_TOKEN_TWO"
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 800,
+    "price_level": "low",
+    "typical_price_range": [750, 1100],
+    "price_history": [[1727740800, 800]]
+  },
+  "airports": []
+}

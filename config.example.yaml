@@ -1,0 +1,36 @@
+# Plantilla de búsqueda — copiá a `config.yaml` y ajustá a tu viaje.
+# `config.yaml` (tu búsqueda real) no se versiona; este ejemplo sí.
+provider: serpapi             # serpapi | searchapi — ambos exponen Google Flights (precios reales)
+currency: USD                 # moneda de los precios (USD, EUR, COP, ...); default USD
+search:
+  origin: BOG                # IATA, 3 letras mayúsculas
+  destination: MAD            # IATA, distinto de origin
+  passengers: 1              # fijo en 1 para v1
+  cabin_class: economy       # fijo en economy para v1
+  max_combinations: 6        # cuantas combinaciones de fecha consultar (secuencial; consume cuota gratuita)
+  drill_down: top_n          # top_n | off — detalle de la vuelta (departure_token) solo para el top N
+
+departure:
+  # Exactamente UNA de las dos (la otra debe quedar en null o eliminarse):
+  fixed_date: null           # ej. "2026-11-10" si la salida es exacta
+  before: "2026-12-15"       # o bien: salir en cualquier fecha antes de esta
+
+stay:
+  min_days: 10
+  max_days: 15
+
+avoid:
+  countries:                 # ISO 3166-1 alpha-2 (2 letras mayúsculas)
+    - US
+  airports:                  # IATA específicos, aunque su país no esté evitado
+    - ATL
+
+max_stops: 2                 # máximo de escalas por tramo (ida y vuelta)
+
+sort:
+  primary: total_price       # total_price | duration
+  secondary: duration        # opcional, desempate
+
+output:
+  top_n: 3                    # preset óptimo free-tier: 6 combos + drill top 3 = 9 requests máx
+  export: null               # null | "csv" | "html"

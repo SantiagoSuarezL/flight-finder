@@ -1,0 +1,30 @@
+[project]
+name = "flight-finder"
+version = "0.1.0"
+description = "Buscador de vuelos con filtro de escalas restringidas (fuente: SerpApi/SearchApi — Google Flights)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.27",
+  "PyYAML>=6",
+  "pydantic>=2",
+  "python-dotenv>=1",
+  "rich>=13",
+]
+
+[project.scripts]
+flight-finder = "flight_finder.cli:_entrypoint"
+flight-finder-web = "flight_finder.web:_entrypoint"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

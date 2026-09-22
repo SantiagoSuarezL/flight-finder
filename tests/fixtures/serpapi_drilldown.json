@@ -1,0 +1,103 @@
+{
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "time": "2026-10-18 21:10"
+          },
+          "arrival_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "time": "2026-10-19 01:40"
+          },
+          "duration": 620,
+          "airplane": "Boeing 787-10",
+          "airline": "Iberia",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+          "travel_class": "Economy",
+          "flight_number": "IB 6627",
+          "legroom": "31",
+          "extensions": ["Checked baggage for a fee"]
+        }
+      ],
+      "layovers": [],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 160000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -26
+      },
+      "price": 950,
+      "type": "1",
+      "extensions": ["Checked baggage for a fee"],
+      "booking_token": "SERP_BOOK_RETURN_DIRECT"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "time": "2026-10-18 10:30"
+          },
+          "arrival_airport": {
+            "id": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport (Atlanta)",
+            "time": "2026-10-18 14:20"
+          },
+          "duration": 590,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Delta Air Lines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 235",
+          "legroom": "31",
+          "extensions": []
+        },
+        {
+          "departure_airport": {
+            "id": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport (Atlanta)",
+            "time": "2026-10-18 17:05"
+          },
+          "arrival_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "time": "2026-10-18 21:40"
+          },
+          "duration": 275,
+          "airplane": "Boeing 737 MAX 9",
+          "airline": "Delta Air Lines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 479",
+          "legroom": "31",
+          "extensions": []
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 165,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL",
+          "overnight": false
+        }
+      ],
+      "total_duration": 1030,
+      "carbon_emissions": {
+        "this_flight": 197000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -9
+      },
+      "price": 920,
+      "type": "1",
+      "extensions": ["Checked baggage for a fee"],
+      "booking_token": "SERP_BOOK_RETURN_ATL"
+    }
+  ]
+}

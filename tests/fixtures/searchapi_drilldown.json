@@ -1,0 +1,114 @@
+{
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "date": "2026-10-18",
+            "time": "21:10"
+          },
+          "arrival_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "date": "2026-10-19",
+            "time": "01:40"
+          },
+          "duration": 620,
+          "airplane": "Boeing 787-10",
+          "airline": "Iberia",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+          "travel_class": "Economy",
+          "flight_number": "IB 6627",
+          "is_overnight": true,
+          "detected_extensions": {
+            "legroom_short": "31in"
+          },
+          "extensions": ["Checked baggage for a fee"]
+        }
+      ],
+      "layovers": [],
+      "total_duration": 620,
+      "carbon_emissions": {
+        "this_flight": 160000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -26
+      },
+      "price": 950,
+      "type": "1",
+      "extensions": ["Checked baggage for a fee"],
+      "booking_token": "SEARCH_BOOK_RETURN_DIRECT"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "id": "MAD",
+            "name": "Adolfo Suarez Madrid-Barajas Airport (Madrid)",
+            "date": "2026-10-18",
+            "time": "21:50"
+          },
+          "arrival_airport": {
+            "id": "MEX",
+            "name": "Mexico City International Airport (Mexico City)",
+            "date": "2026-10-19",
+            "time": "03:10"
+          },
+          "duration": 620,
+          "airplane": "Boeing 787-9",
+          "airline": "Aeromexico",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+          "travel_class": "Economy",
+          "flight_number": "AM 5",
+          "is_overnight": true,
+          "legroom": "32",
+          "extensions": []
+        },
+        {
+          "departure_airport": {
+            "id": "MEX",
+            "name": "Mexico City International Airport (Mexico City)",
+            "date": "2026-10-19",
+            "time": "06:40"
+          },
+          "arrival_airport": {
+            "id": "BOG",
+            "name": "El Dorado International Airport (Bogota)",
+            "date": "2026-10-19",
+            "time": "10:05"
+          },
+          "duration": 265,
+          "airplane": "Boeing 737 MAX 8",
+          "airline": "Aeromexico",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+          "travel_class": "Economy",
+          "flight_number": "AM 742",
+          "is_overnight": false,
+          "legroom": "31",
+          "extensions": []
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 150,
+          "name": "Mexico City International Airport",
+          "id": "MEX",
+          "overnight": false
+        }
+      ],
+      "total_duration": 1035,
+      "carbon_emissions": {
+        "this_flight": 184000,
+        "typical_for_this_route": 217000,
+        "difference_percent": -15
+      },
+      "price": 880,
+      "type": "1",
+      "extensions": ["Checked baggage for a fee"],
+      "booking_token": "SEARCH_BOOK_RETURN_MEX"
+    }
+  ]
+}
